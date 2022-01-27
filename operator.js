@@ -54,3 +54,13 @@ let bilangan = 10;
 bilangan = bilangan - 1;
 
 console.log(bilangan); // output: 9
+
+// Lengkapi kode di bawah
+const penjumlahan = 10 + 5;
+console.log(penjumlahan); //output 15
+
+const modulus = penjumlahan % 6;
+console.log(modulus); //output 3
+
+const pangkat = modulus ** 3;
+console.log(pangkat); //output 27
