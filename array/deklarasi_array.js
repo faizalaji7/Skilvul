@@ -18,3 +18,5 @@ let namaArray = new Array(element1, element2, element3);
 let buah = new Array( 'Mangga', 'Apel', 'Jeruk');
 
 let hargaBuah = new Array("20000", 30000, 15000); // Tipe data di array boleh berbeda
+
+console.log(hargaBuah);
