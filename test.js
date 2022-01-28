@@ -1,9 +1,13 @@
 // Bismillah Frontend Dev
 
-let fruits = ['Mangga', 'Pisang', 'Jambu'];
-
-console.log(fruits.splice(2, 0, 'Semangka')); 
-// console.log(fruits.push('Semangka')); 
-// console.log(fruits.slice(2, 0, 'Semangka'));
-console.log(fruits);
-// console.log(fruits.[length-1]);
+function ganjilGenap(platNomor) {
+    // Tulis kode kalian di dalam fungsi ini
+    let platNomor = 4;
+    if (platNomor%2==0){
+        console.log("Genap");
+    }else if (platNomor%2==1){
+        console.log("Ganjil");
+    }else {
+        console.log("Ganjil");
+    }
+}

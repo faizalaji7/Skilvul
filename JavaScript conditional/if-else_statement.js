@@ -56,3 +56,12 @@ if (nilaiAndi > 80) { console.log('SANGAT MEMUASKAN'); }artinya jika variabel ni
 else if (nilaiAndi >= 60 && nilaiAndi <= 80) { console.log('MEMUASKAN'); }, artinya jika variabel nilaiAndi berada di atas atau sama dengan 60 dan nilaiAndi berada di bawah atau sama dengan 80 (yang bisa diartikan sebagai jika nilaiAndi berada di antara 60 hingga 80), maka aplikasi akan menampilkan kalimat "MEMUASKAN".
 
 else { console.log('JANGAN MENYERAH, COBA LAGI!');}, artinya selain kedua kondisi yang telah disebutkan di if dan else if, maka aplikasi akan menampilkan kalimat "JANGAN MENYERAH, COBA LAGI!".
+
+// contoh Ganjil-Genap
+function ganjilGenap(platNomor) {
+  // Tulis kode kalian di dalam fungsi ini
+  if (platNomor%2 == 0)
+      return "Genap";
+  else
+      return "Ganjil";
+}
