@@ -1,7 +1,7 @@
 // Bismillah Frontend Dev
-const promt = require('prompt-sync')();
 
-var name = promt("Nama Anda: ");
-var age = promt("Usia Anda: ");
+let fruits = ['Mangga', 'Pisang', 'Jambu'];
 
-console.log("Saya ",name,", Usia saya ", age);
+console.log(fruits[fruits.length-1]);
+console.log(fruits[2]);
+// console.log(fruits.[length-1]);
