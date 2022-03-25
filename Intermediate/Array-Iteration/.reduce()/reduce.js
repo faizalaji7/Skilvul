@@ -1,3 +1,4 @@
+// ** Contoh 1
 let arrAngka = [1, 2, 3, 4, 5];
 
 // let hasil = arrAngka.reduce((total, value) => {
@@ -9,8 +10,7 @@ let arrAngka = [1, 2, 3, 4, 5];
 // ** atau
 // let hasil = arrAngka.reduce((total, value) => total + value);
 
-// ** Menggunakan initial value pada .reduce()
-
+// ** Contoh 2 Menggunakan initial value pada .reduce()
 let hasil = arrAngka.reduce((total, value) => {
   return total + value;
 }, 7); // initial valuenya adalah 5
@@ -18,6 +18,7 @@ let hasil = arrAngka.reduce((total, value) => {
 console.log(hasil);
 console.log();
 // ==========================================================================
+// ** Contoh 3
 let fruits = ['Jambu', 'Apel', 'Mangga', 'Jambu', 'Jeruk', 'Apel']
 
 let fruitList = fruits.reduce((list,fruit) => {
@@ -32,6 +33,7 @@ let fruitList = fruits.reduce((list,fruit) => {
 console.log(fruitList);
 console.log();
 // ==========================================================================
+// ** Contoh 4
 // 1. Lakukan operasi perhitungan pada array nilai menggunakan .reduce(). 
 // Tambahkan callback function dengan parameter total dan item. 
 // Lalu berikan return statement di dalam callback function yang mengembalikan nilai penjumlahan dari variabel total dan item. 
