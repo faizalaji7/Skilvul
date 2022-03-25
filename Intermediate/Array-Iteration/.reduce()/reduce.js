@@ -1,13 +1,13 @@
 // ** Contoh 1
 let arrAngka = [1, 2, 3, 4, 5];
-
+// cara 1
 // let hasil = arrAngka.reduce((total, value) => {
 //   return total + value;
 // });
 
 // console.log(hasil);
 
-// ** atau
+// ** cara 2
 // let hasil = arrAngka.reduce((total, value) => total + value);
 
 // ** Contoh 2 Menggunakan initial value pada .reduce()
