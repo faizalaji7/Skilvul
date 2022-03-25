@@ -1,3 +1,4 @@
+// ** Latihan 1
 // Lakukan perulangan pada array hewan menggunakan .forEach(). 
 // Beri callback function dengan parameter item sebagai value dari data array.
 
@@ -6,6 +7,7 @@
 
 // Kemudian tampilkan item menggunakan console.log(). Klik tab Console untuk melihat list data.
 
+// ** Jawaban
 let hewan = ["Ayam", "Buaya", "Cicak", "Domba"];
 
 // Buat kode kamu di bawah ini
