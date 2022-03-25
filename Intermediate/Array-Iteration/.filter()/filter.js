@@ -4,9 +4,15 @@
 // Dengan menggunakan .filter(), kita dapat melakukan hal tersebut seperti ini:
 let arrAngka = [1, 2, 3, 4, 5];
 
-let filterArr = arrAngka.filter((item) => {
-  return item > 2;
-});
+// cara 1
+// let filterArr = arrAngka.filter((item) => {
+//   return item > 2;
+// });
+// console.log(filterArr);
 
+
+// cara 2
+let filterArr = arrAngka.filter((item) => item > 2);
 console.log(filterArr);
-// Output: [3, 4, 5]
+
+// ** Contoh 2
