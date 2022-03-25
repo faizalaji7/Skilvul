@@ -1,8 +1,0 @@
-Ada 5 jenis loop di JavaScript, yaitu:
-
-for
-for...in
-for...of
-while
-do...while
-Semua loop di atas pada dasarnya sama saja (terkecuali untuk for..in dan for...of ada sedikit perbedaan), jadi terserah kalian saja ingin memakai yang mana. Hanya saja, yang sering digunakan pada umumnya adalah for dan while loop.
