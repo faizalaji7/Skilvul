@@ -1,0 +1,45 @@
+# Export Default
+Pada topik sebelumnya kita sudah belajar memberi label export pada variabel yang ingin di-export.
+
+Dengan menggunakan export default, kode yang kita export akan bersifat lebih spesial pada module tersebut. Namanya juga spesial, berarti dalam satu module hanya boleh terdapat satu export default.
+
+Biasanya export default digunakan untuk membuat salah satu variabel menjadi data utama yang akan di-export pada sebuah module. export default juga bisa digunakan jika hanya ada satu variabel pada suatu module.
+
+* Penggunaannya sama seperti export biasa, kamu cukup menambahkan kata kunci default setelah export.
+
+export default data;
+
+* Contoh menggunakan export default:
+
+// greeting.js
+function sayHello(user) {
+  console.log(`Hello, ${user}!`);
+}
+
+export default sayHello;
+
+* Cara import-nya pun sedikit berbeda ketika menggunakan export default. Kurung kurawalnya atau { } dihilangkan dan langsung memanggil nama data yang sudah di-export sebelumnya.
+
+import data from "./namaModul.js";
+
+* Contoh melakukan import pada export default:
+
+import sayHello from "./greeting.js";
+
+sayhello("Thoriq"); // Output: Hello, Thoriq!
+selain itu, kita juga dapat menggunakan export dan export default bersamaan dalam satu file module:
+
+export const FONTS = {
+  small: 10px;
+  medium: 14px;
+  normal: 16px;
+  big: 20px;
+}
+
+export default function sayHello(user) {
+  console.log(`Hello, ${user}!`);
+}
+
+cara import module di atas pada file yang membutuhkan variabel di module tersebut dapat menjadi seperti ini:
+
+import sayHello, { FONTS } from "./greeting.js"
