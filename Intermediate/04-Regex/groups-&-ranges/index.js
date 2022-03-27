@@ -9,7 +9,7 @@
 
 // Buat sebuah variabel name berisikan nama anda
 // Hilangkan semua huruf vokal pada nama anda
-const name = 'Rizky Fauzi';
+const name = 'Faizal Aji Wibowo';
 const regex = /[^aeiou]/ig;
 const result = name.match(regex);
 const newName = result.join('');
